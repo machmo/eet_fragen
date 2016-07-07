@@ -1,0 +1,843 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Arch Linux) (preloaded format=pdflatex 2016.7.3)  7 JUL 2016 09:50
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**latex.tex
+(./latex.tex
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 79 languages loaded.
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(/usr/share/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen103
+))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count87
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count88
+\leftroot@=\count89
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count90
+\DOTSCASE@=\count91
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
+\dotsspace@=\muskip10
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
+\tag@help=\toks17
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
+\andhelp@=\toks18
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/usr/share/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count99
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+(/usr/share/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 142.
+)
+(/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip46
+\f@ncyO@elh=\skip47
+\f@ncyO@erh=\skip48
+\f@ncyO@olh=\skip49
+\f@ncyO@orh=\skip50
+\f@ncyO@elf=\skip51
+\f@ncyO@erf=\skip52
+\f@ncyO@olf=\skip53
+\f@ncyO@orf=\skip54
+)
+\@indexfile=\write3
+\openout3 = `latex.idx'.
+
+
+Writing index file latex.idx
+(./latex.aux)
+\openout1 = `latex.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+ (/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count100
+\scratchdimen=\dimen114
+\scratchbox=\box28
+\nofMPsegments=\count101
+\nofMParguments=\count102
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count103
+\MPscratchDim=\dimen115
+\MPnumerator=\count104
+\makeMPintoPDFobject=\count105
+\everyMPtoPDFconversion=\toks23
+) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Try loading font information for U+msa on input line 25.
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 25.
+
+(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 29.
+
+(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 29.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (0.11401pt too wide) in paragraph at lines 50--51
+[]\OT1/cmr/m/n/12 Welche Vorteile haben Drehstrom-sys-teme gegen^^?uber ein-pha
+si-gen Wech-
+ []
+
+
+Overfull \hbox (20.8499pt too wide) in paragraph at lines 55--56
+\OT1/cmr/m/n/12 schnitt sind die []Ubertragungsverluste umgekehrt pro-por-tiona
+l zum Quadrat
+ []
+
+
+Overfull \hbox (28.09563pt too wide) in paragraph at lines 71--71
+[]\OT1/cmr/m/n/12 Optimierung der Erzeu-gungskosten durch wirtschaftliche Lastv
+erteilung
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 15.34767pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2] <schem_aufbau_dampfkraftanlage.jpeg, id=14, 1185.42876pt x 761.84625pt>
+File: schem_aufbau_dampfkraftanlage.jpeg Graphic file (type jpg)
+
+<use schem_aufbau_dampfkraftanlage.jpeg>
+Package pdftex.def Info: schem_aufbau_dampfkraftanlage.jpeg used on input line 
+77.
+(pdftex.def)             Requested size: 390.0pt x 250.64279pt.
+
+Overfull \hbox (44.51077pt too wide) in paragraph at lines 76--78
+[]\OT1/cmr/m/n/12 Skizzieren Sie den schema-tis-chen Auf-bau eines kon-ven-tion
+ellen Dampfkraftwerks
+ []
+
+
+Overfull \hbox (29.3747pt too wide) in paragraph at lines 76--78
+[] 
+ []
+
+
+Overfull \hbox (11.11528pt too wide) in paragraph at lines 79--80
+[]\OT1/cmr/m/n/12 Was wird in Zusam-men-hang mit ther-mis-chen Kraftwerken als 
+Kraftwerks-
+ []
+
+
+Overfull \hbox (0.31401pt too wide) in paragraph at lines 91--92
+[]\OT1/cmr/m/n/12 Erl^^?autern Sie den Un-ter-schied zwis-chen einem Kernkraftw
+erk mit Siede-
+ []
+
+[3 <./schem_aufbau_dampfkraftanlage.jpeg>]
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+
+ []
+
+
+Overfull \hbox (29.29103pt too wide) in paragraph at lines 98--99
+[]\OT1/cmr/m/n/12 Was ver-steht man unter Kraft-W^^?arme-Kopplung? Welchen Gesa
+mtwirkungs-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+ []
+
+
+Overfull \hbox (17.49532pt too wide) in paragraph at lines 109--110
+\OT1/cmr/m/n/12 An- und Ab-fahren pro Tag. Kurze An-fahrzeiten, hohe Leis-tungs
+^^?anderungs-
+ []
+
+
+Overfull \hbox (10.869pt too wide) in paragraph at lines 109--110
+\OT1/cmr/m/n/12 Geschwindigkeiten. Spitzen-leis-tungskraftwerke sind Speicher- 
+und Pump-
+ []
+
+<lastganglinie-de20160626172933376.jpeg, id=26, 580.3281pt x 208.1376pt>
+File: lastganglinie-de20160626172933376.jpeg Graphic file (type jpg)
+
+<use lastganglinie-de20160626172933376.jpeg>
+Package pdftex.def Info: lastganglinie-de20160626172933376.jpeg used on input l
+ine 113.
+(pdftex.def)             Requested size: 390.0pt x 139.87703pt.
+
+Overfull \hbox (19.60965pt too wide) in paragraph at lines 111--114
+\OT1/cmr/m/n/12 trischer Leis-tung in Deutsch-land und kon-stru-ieren Sie da-ra
+us die zugeh^^?orige
+ []
+
+
+Overfull \hbox (29.3747pt too wide) in paragraph at lines 111--114
+[] 
+ []
+
+[5 <./lastganglinie-de20160626172933376.jpeg>]
+Overfull \hbox (6.38617pt too wide) in paragraph at lines 127--128
+[]\OT1/cmr/m/n/12 Welche Funk-tion hat der Drehop-er-a-tor $\OML/cmm/m/it/12 a$
+ \OT1/cmr/m/n/12 und wie ist er im sym-metrischen
+ []
+
+
+Overfull \hbox (29.05124pt too wide) in paragraph at lines 129--130
+[][]\OT1/cmr/m/n/12 Hilfsmittel zur Darstel-lung der Phasen-ver-schobe-nen Gr^^
+?o^^Yen eines Drehstrom-
+ []
+
+
+Overfull \hbox (0.514pt too wide) in paragraph at lines 134--135
+[]\OT1/cmr/m/n/12 Vergleichen Sie Stern- und Dreieckss-chal-tung eines sym-metr
+ischen ohm-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
+
+ []
+
+
+Overfull \hbox (1.2432pt too wide) in paragraph at lines 152--153
+[]\OT1/cmr/m/n/12 Geben Sie die Formeln zur Berech-nung der Schein-, Wirk- und 
+Blindleis-
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+
+ []
+
+
+Overfull \hbox (9.00005pt too wide) in paragraph at lines 174--180
+\OT1/cmr/m/n/12 Beschriften und be-nen-nen Sie die einzel-nen Be-standteile des
+ Er-satzschalt-
+ []
+
+<trafo_vollstaendig.png, id=36, 910.40125pt x 528.97626pt>
+File: trafo_vollstaendig.png Graphic file (type png)
+
+<use trafo_vollstaendig.png>
+Package pdftex.def Info: trafo_vollstaendig.png used on input line 184.
+(pdftex.def)             Requested size: 390.0pt x 226.60785pt.
+
+<trafo_ohne_EK_verluste.jpeg, id=38, 957.5775pt x 324.21124pt>
+File: trafo_ohne_EK_verluste.jpeg Graphic file (type jpg)
+
+<use trafo_ohne_EK_verluste.jpeg>
+Package pdftex.def Info: trafo_ohne_EK_verluste.jpeg used on input line 184.
+(pdftex.def)             Requested size: 390.0pt x 132.04195pt.
+
+<trafo_bemessungsstrom.png, id=39, 741.77126pt x 365.365pt>
+File: trafo_bemessungsstrom.png Graphic file (type png)
+
+<use trafo_bemessungsstrom.png>
+Package pdftex.def Info: trafo_bemessungsstrom.png used on input line 184.
+(pdftex.def)             Requested size: 390.0pt x 192.09824pt.
+
+Overfull \hbox (29.3747pt too wide) in paragraph at lines 184--185
+[] 
+ []
+
+
+Overfull \hbox (29.3747pt too wide) in paragraph at lines 184--185
+[] 
+ []
+
+
+Overfull \hbox (29.3747pt too wide) in paragraph at lines 184--185
+[]
+ []
+
+[7]
+Overfull \hbox (9.00005pt too wide) in paragraph at lines 186--188
+\OT1/cmr/m/n/12 Beschriften und be-nen-nen Sie die einzel-nen Be-standteile des
+ Er-satzschalt-
+ []
+
+[8 <./trafo_vollstaendig.png> <./trafo_ohne_EK_verluste.jpeg> <./trafo_bemessun
+gsstrom.png>] <trafo-dreiphasig.png, id=52, 592.2125pt x 266.9975pt>
+File: trafo-dreiphasig.png Graphic file (type png)
+
+<use trafo-dreiphasig.png>
+Package pdftex.def Info: trafo-dreiphasig.png used on input line 189.
+(pdftex.def)             Requested size: 331.50238pt x 149.46053pt.
+
+Overfull \hbox (4.16953pt too wide) in paragraph at lines 191--192
+[]\OT1/cmr/m/n/12 Beschreiben Sie in Stich-worten, wie die Kurschlusss-pan-nung
+ eines Trans-
+ []
+
+
+Overfull \hbox (7.97505pt too wide) in paragraph at lines 198--200
+[]\OT1/cmr/m/n/12 Zeichnen Sie f^^?ur eine Gle-ich-strom-neben-schlussmas-chine
+ das Er-satzschalt-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+
+ []
+
+[9 <./trafo-dreiphasig.png>]
+Overfull \hbox (2.78343pt too wide) in paragraph at lines 206--208
+\OT1/cmr/m/n/12 Was geschieht, wenn eine Gle-ich-strom-rei-hen-schlussmas-chine
+ ohne mech-
+ []
+
+<gleichstromreihenschluss_kennlinie.png, id=57, 585.18625pt x 603.25375pt>
+File: gleichstromreihenschluss_kennlinie.png Graphic file (type png)
+
+<use gleichstromreihenschluss_kennlinie.png>
+Package pdftex.def Info: gleichstromreihenschluss_kennlinie.png used on input l
+ine 208.
+(pdftex.def)             Requested size: 195.0pt x 201.01659pt.
+
+Overfull \hbox (10.05975pt too wide) in paragraph at lines 208--209
+\OT1/cmr/m/n/12 Wird eine Gle-ich-strom-rei-hen-schlussmas-chine ent-lastet, ka
+nn die Drehzahl
+ []
+
+
+Overfull \hbox (15.00552pt too wide) in paragraph at lines 211--212
+\OT1/cmr/m/n/12 Luftspalt einer elek-trischen Mas-chine, die gegen^^?uber dem S
+t^^?ander uml^^?auft.[] 
+ []
+
+
+Overfull \hbox (4.55702pt too wide) in paragraph at lines 213--214
+[] \OT1/cmr/m/n/12 Welche Arten von Syn-chron-maschi-nen kann man hin-sichtlich
+ der Bauart
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
+
+ []
+
+<syncromaschine_esb.png, id=58, 603.25375pt x 326.21875pt>
+File: syncromaschine_esb.png Graphic file (type png)
+
+<use syncromaschine_esb.png>
+Package pdftex.def Info: syncromaschine_esb.png used on input line 219.
+(pdftex.def)             Requested size: 272.99881pt x 147.62834pt.
+ [10 <./gleichstromreihenschluss_kennlinie.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
+
+ []
+
+<ohmschindkap.jpg, id=63, 2312.64pt x 931.48pt>
+File: ohmschindkap.jpg Graphic file (type jpg)
+ <use ohmschindkap.jpg>
+Package pdftex.def Info: ohmschindkap.jpg used on input line 229.
+(pdftex.def)             Requested size: 390.0pt x 157.07031pt.
+
+Overfull \hbox (29.3747pt too wide) in paragraph at lines 229--230
+[][] 
+ []
+
+[11 <./syncromaschine_esb.png> <./ohmschindkap.jpg>]
+<kennlinie_syncro.png, id=68, 455.7025pt x 387.4475pt>
+File: kennlinie_syncro.png Graphic file (type png)
+
+<use kennlinie_syncro.png>
+Package pdftex.def Info: kennlinie_syncro.png used on input line 235.
+(pdftex.def)             Requested size: 117.00119pt x 99.47472pt.
+
+Overfull \hbox (1.1279pt too wide) in paragraph at lines 243--244
+[]\OT1/cmr/m/n/12 Zeichnen Sie die Drehzahl-Drehmoment-Kennlinie einer Asyn-chr
+on-mas-
+ []
+
+<n-m-kennlinie-async.png, id=69, 1161.33875pt x 716.6775pt>
+File: n-m-kennlinie-async.png Graphic file (type png)
+
+<use n-m-kennlinie-async.png>
+Package pdftex.def Info: n-m-kennlinie-async.png used on input line 244.
+(pdftex.def)             Requested size: 350.99762pt x 216.6015pt.
+ [12 <./kennlinie_syncro.png> <./n-m-kennlinie-async.png>]
+Overfull \hbox (4.4223pt too wide) in paragraph at lines 251--252
+[]\OT1/cmr/m/n/12 Welchen Ein-fluss haben bei einer Asyn-chron-mas-chine die Kl
+em-menspan-
+ []
+
+
+Overfull \hbox (13.79582pt too wide) in paragraph at lines 251--252
+\OT1/cmr/m/n/12 nung und deren Fre-quenz auf die Drehzahl und das max-i-mal zur
+ Verf^^?ugung
+ []
+
+
+Overfull \hbox (12.525pt too wide) in paragraph at lines 255--256
+\OT1/cmr/m/n/12 Das Kipp-mo-ment ist umgekehrt pro-por-tional dem Quadrat der s
+peisenden
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
+
+ []
+
+
+Overfull \hbox (2.92511pt too wide) in paragraph at lines 267--268
+\OT1/cmr/m/n/12 Begr^^?undung: Hohe mech-a-nis-che Be-last-barkeit, gerin-geres
+ Eigengewicht,
+ []
+
+
+Overfull \hbox (21.52907pt too wide) in paragraph at lines 275--276
+\OT1/cmr/m/n/12 z.B. ohm-scher Quer-leitwert-be-lag (Ableitungs-be-lag), ka-paz
+-i-tiver Ableitungs-
+ []
+
+[13] <zeiger_nat_leistung.jpeg, id=79, 132.495pt x 175.65625pt>
+File: zeiger_nat_leistung.jpeg Graphic file (type jpg)
+
+<use zeiger_nat_leistung.jpeg>
+Package pdftex.def Info: zeiger_nat_leistung.jpeg used on input line 298.
+(pdftex.def)             Requested size: 97.5pt x 129.26257pt.
+
+Overfull \hbox (7.15756pt too wide) in paragraph at lines 298--299
+[] \OT1/cmr/m/n/12 1 : Leitungsan-fang; 2 : Leitungsende; $\OML/cmm/m/it/12 ^^L
+$ \OT1/cmr/m/n/12 : Phasenkon-
+ []
+
+[14 <./zeiger_nat_leistung.jpeg>]
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+
+ []
+
+
+Overfull \hbox (11.02364pt too wide) in paragraph at lines 311--311
+\OT1/cmr/m/n/12 Problem: Sta-tion^^?are Erh^^?ohung der Span-nung am Leitungsen
+de gegen^^?uber
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
+
+ []
+
+
+Overfull \hbox (4.20883pt too wide) in paragraph at lines 320--320
+\OT1/cmr/m/n/12 Widerst^^?ande bes-timmt. Reak-tanz-bel^^?age sind nicht wirk-s
+am. Keine
+ []
+
+
+Overfull \hbox (20.87627pt too wide) in paragraph at lines 320--320
+[]\OT1/cmr/m/n/12 Keine Ladeleis-tung, da-her keine L^^?angenbegrenzung durch d
+ie Ladeleis-
+ []
+
+[15]
+Overfull \hbox (2.89871pt too wide) in paragraph at lines 340--341
+\OT1/cmr/m/n/12 Elek-tro-den eines ho-mo-ge-nen und eines in-ho-mo-ge-nen elek-
+trischen Feldes. 
+ []
+
+<feldstarke_verlauf_homo_inhomo.png, id=86, 555.07375pt x 401.5pt>
+File: feldstarke_verlauf_homo_inhomo.png Graphic file (type png)
+
+<use feldstarke_verlauf_homo_inhomo.png>
+Package pdftex.def Info: feldstarke_verlauf_homo_inhomo.png used on input line 
+341.
+(pdftex.def)             Requested size: 312.00119pt x 225.67776pt.
+
+Overfull \hbox (8.4554pt too wide) in paragraph at lines 347--348
+[][]\OT1/cmr/bx/n/12 schwach in-ho-mogen\OT1/cmr/m/n/12 : Ent-ladung-sein-satz 
+f^^?uhrt un-mit-tel-bar zum Durch-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
+
+ []
+
+
+Overfull \hbox (10.79308pt too wide) in paragraph at lines 352--353
+[]\OT1/cmr/m/n/12 Wie gro^^Y ist die in-nere elek-trische Fes-tigkeit von Luft 
+bei at-mo-sph^^?arischen
+ []
+
+[16 <./feldstarke_verlauf_homo_inhomo.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 357--358
+
+ []
+
+
+Overfull \hbox (22.28185pt too wide) in paragraph at lines 359--360
+\OT1/cmr/m/n/12 darf f^^?ur den Durch-schlag (Stream-er-ent-ladung) einer Stab-
+Platte-Anordnung
+ []
+
+
+Overfull \hbox (46.29965pt too wide) in paragraph at lines 367--368
+[][]\OT1/cmr/m/n/12 Eine Isolierung, welche nach einem Durch-schlag ihr vollst^
+^?andiges Isolierverm^^?ogen
+ []
+
+<blitzstosspannung.png, id=91, 886.31125pt x 357.335pt>
+File: blitzstosspannung.png Graphic file (type png)
+
+<use blitzstosspannung.png>
+Package pdftex.def Info: blitzstosspannung.png used on input line 370.
+(pdftex.def)             Requested size: 350.99762pt x 141.51381pt.
+
+<schaltung_blitzstosspannungen.png, id=92, 747.79375pt x 335.2525pt>
+File: schaltung_blitzstosspannungen.png Graphic file (type png)
+
+<use schaltung_blitzstosspannungen.png>
+Package pdftex.def Info: schaltung_blitzstosspannungen.png used on input line 3
+73.
+(pdftex.def)             Requested size: 350.99762pt x 157.35895pt.
+ [17 <./blitzstosspannung.png>]
+<lichtbogen.png, id=97, 843.15pt x 449.68pt>
+File: lichtbogen.png Graphic file (type png)
+ <use lichtbogen.png>
+Package pdftex.def Info: lichtbogen.png used on input line 376.
+(pdftex.def)             Requested size: 350.99762pt x 187.20381pt.
+ [18 <./schaltung_blitzstosspannungen.png> <./lichtbogen.png>]
+<bauelemente_schalter.png, id=103, 1559.8275pt x 354.32375pt>
+File: bauelemente_schalter.png Graphic file (type png)
+
+<use bauelemente_schalter.png>
+Package pdftex.def Info: bauelemente_schalter.png used on input line 398.
+(pdftex.def)             Requested size: 350.99762pt x 79.73021pt.
+
+<arten-von-stromrichter.png, id=104, 1245.65375pt x 765.86125pt>
+File: arten-von-stromrichter.png Graphic file (type png)
+
+<use arten-von-stromrichter.png>
+Package pdftex.def Info: arten-von-stromrichter.png used on input line 401.
+(pdftex.def)             Requested size: 272.99881pt x 167.84726pt.
+ [19 <./bauelemente_schalter.png> <./arten-von-stromrichter.png>]
+<diode_gleichrichter_u-verlauf.png, id=111, 1263.72125pt x 442.65375pt>
+File: diode_gleichrichter_u-verlauf.png Graphic file (type png)
+
+<use diode_gleichrichter_u-verlauf.png>
+Package pdftex.def Info: diode_gleichrichter_u-verlauf.png used on input line 4
+04.
+(pdftex.def)             Requested size: 312.00119pt x 109.28526pt.
+
+<thyristor_gleichrichter_u-verlauf.png, id=112, 1262.7175pt x 333.245pt>
+File: thyristor_gleichrichter_u-verlauf.png Graphic file (type png)
+
+<use thyristor_gleichrichter_u-verlauf.png>
+Package pdftex.def Info: thyristor_gleichrichter_u-verlauf.png used on input li
+ne 404.
+(pdftex.def)             Requested size: 312.00119pt x 82.33981pt.
+
+<grundschaltung_tiefsetzsteller.png, id=113, 1149.29375pt x 461.725pt>
+File: grundschaltung_tiefsetzsteller.png Graphic file (type png)
+
+<use grundschaltung_tiefsetzsteller.png>
+Package pdftex.def Info: grundschaltung_tiefsetzsteller.png used on input line 
+407.
+(pdftex.def)             Requested size: 312.00119pt x 125.34377pt.
+
+Overfull \hbox (5.92805pt too wide) in paragraph at lines 415--416
+\OT1/cmr/m/n/12 und Gle-ichspan-nung nach DIN VDE 0100 und welcher K^^?orperwid
+erstand
+ []
+
+[20 <./diode_gleichrichter_u-verlauf.png> <./thyristor_gleichrichter_u-verlauf.
+png> <./grundschaltung_tiefsetzsteller.png>]
+Overfull \hbox (3.28622pt too wide) in paragraph at lines 422--423
+[][]\OT1/cmr/m/n/12 Der Fehler-strom-schutzschal-ter er-fasst ^^?uber die Erde 
+abflie^^Yen-den Fehler-
+ []
+
+
+Overfull \hbox (20.86903pt too wide) in paragraph at lines 427--432
+\OT1/cmr/m/n/12 Skript zur Vor-lesung \OT1/cmr/m/sc/12 Elek-trische En-ergi-ete
+ch-nik\OT1/cmr/m/n/12 , 2016, HSA, TU M^^?unchen 
+ []
+
+
+Overfull \hbox (20.051pt too wide) in paragraph at lines 427--432
+\OT1/cmr/m/n/12 Folien zur Vor-lesung \OT1/cmr/m/sc/12 Elek-trische En-ergi-ete
+ch-nik\OT1/cmr/m/n/12 , 2016, HSA, TU M^^?unchen 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 427--432
+
+ []
+
+[21] (./latex.aux) ) 
+Here is how much of TeX's memory you used:
+ 2734 strings out of 493054
+ 37046 string characters out of 6140587
+ 98275 words of memory out of 5000000
+ 6188 multiletter control sequences out of 15000+600000
+ 13455 words of font info for 51 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 38i,12n,43p,718b,388s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
+2.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pf
+b></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12
+.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
+re/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmti12.pfb>
+Output written on latex.pdf (21 pages, 1624526 bytes).
+PDF statistics:
+ 175 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,432 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{color}
+
+\newcommand{\ans}{\par\textcolor{blue}}
+\newcommand{\imgsrc}{\\\includegraphics[width=0.7\textwidth]}
+
+\author{J. Eder}
+\title{Elektrische Energietechnik\\Lösungssammlung zu den Kurzfragen}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lfoot{J. Eder, 2016}
+\cfoot{}
+\rfoot{\thepage}
+
+\makeindex
+
+\begin{document}
+	
+	\maketitle
+	
+	\section{Einführung}
+	\begin{itemize}
+		\item 1 t SKE entspricht wie viel kWh?
+	\ans{8141 kWh}
+	
+		\item Jahreshöchstlast im öffentlichen Stromversorgungsnetz in Deutschland?
+		\ans{ca. 80 Gigawatt (Stand 2011)}
+		
+	\item Jährlicher Primärenergiebedarf Deutschlands in t SKE?
+	\ans{ca. 501 Mio t SKE}
+	
+	\item Jährlicher Primärenergiebedarf weltweit in t SKE?
+	\ans{ca. 17 Milliarden t SKE}
+	
+	\item Wie ist etwa das Verhältnis des Verbrauchs von Primär- zu Sekundär- zu Nutzenergie in Deutschland?
+	\ans{Primärenergie : Sekundärenergie : Nutzenergie = 6 : 3 : 2\\(Primär- : End- : Nutzenergie = 3 : 2 : 1)}
+	
+	\item Was versteht man unter Ressourcen, Reserven und der Reichweite von Rohstoffen?
+	\ans{\textbf{Ressourcen:} Diejenige Menge an Energierohstoffen, deren Vorhandensein bekannt, vermutet oder geschätzt wird.\\\textbf{Reserven:} Die Menge eines Rohstoffs, deren Vorhandensein bekannt ist und die zum Zeitpunkt der Beurteilung nutzbringend gewonnen werden kann, d.h. abbauwürdig ist.\\\textbf{Reichweite:} Die Reichweite von Rohstoffen wird in Jahren gemessen und berechnet sich aus dem derzeitigen jährlichen Verbrauch und der Menge der bekannten Reserven, d.h. die Menge von Rohstoffen, die sich mit heutiger Technik zu heutigen Preisen fördern lässt.}
+
+	\item Welchen prozentualen Anteil hat die elektrische Energie am gesamten Energieverbrauch in Industrieländern?
+	\ans{bis zu 15 \%}
+	
+	\item Welche Vorteile haben Drehstromsysteme gegenüber einphasigen Wechselstromsystemen?
+	\ans{- Einsparung des Materials und der Verluste des Rückleiters (Neutralleiter) bei symmetrischem Betrieb (Summe der Leiterströme ist gleich 0)
+		- Im Niederspannungsnetz besteht die Auswahl zwischen Leiter-Erd-Spannung und Außenleiterspannung und ermöglicht so wahlweise Stern- oder Dreieckschaltung von Verbrauchern.}
+	
+	\item{Warum erfolgt die Übertragung elektrischer Energie bei hohen Spannungen?}
+	\ans{Bei gegebener zu übertragender Leistung und gegebenem Leiterquerschnitt sind die Übertragungsverluste umgekehrt proportional zum Quadrat der Übertragungsspannung.}
+	
+	\item{Nennen Sie die typischen Nennspannungen der verschiedenen Spannungsebenen des Elektrizitätsversorgungssystems in Deutschland.}
+	\ans{Niederspannungsebene: 400 V
+		Mittelspannungsebene: 6 / 10 / 20 kV
+		Hochspannungsebene: 110 kV
+		Höchstspannungsebene: 380 / 220 kV
+		}
+		
+		\item{Welche Vorteile bietet der nationale und internationale Verbundbetrieb?}
+		\ans{\begin{itemize}
+				\item Optimierung der Erzeugungskosten durch wirtschaftliche Lastverteilung auf unterschiedliche Kraftwerke
+				\item Leistungsausgleich in Folge stufenweisen Kraftwerkausbaus und damit Möglichkeit zum Bau größerer, wirtschaftlicher Kraftwerke bzw. von Gemeinschaftskraftwerken sowie größere Freizügigkeit der Standortwahl
+				\item Austausch von Spotmengen und Bandlieferungen
+				\item Übertragung von Reserveleistung bei Kraftwerksstörungen und Erzeugungsmangel
+				\item Bereitstellung von Netzreserve im vermaschten Verbundnetz bei Netzüberlastungen oder Netzausfällen
+			\end{itemize}}
+	\end{itemize}
+	
+	\section{Erzeugung von elektrischer Energie}
+	\begin{itemize}
+		\item Skizzieren Sie den schematischen Aufbau eines konventionellen Dampfkraftwerks (Grundschaltplan).
+		\\\includegraphics[width=\textwidth]{schem_aufbau_dampfkraftanlage.jpeg}
+		
+		\item Was wird in Zusammenhang mit thermischen Kraftwerken als Kraftwerksblock bezeichnet?
+		\ans{Eine Einheit aus Dampferzeuger, Turbinensatz und Generator.}
+		
+		\item Was versteht man unter dem Maschinensatz eines Kraftwerks?
+		\ans{Die Einheit von Turbine und Generator auf einer Welle.}
+		
+		\item Wie viel Kohle mit einem mittleren Brennwert von 25 MJ/kg ist zur Erzeugung von 1 kWh elektrischer Energie in einem Kraftwerk mit einem Wirkungsgrad von 38\% erforderlich.
+		\ans{$1 \, \text{kWh} = 3,6 \, \text{MJ}$\\
+			$\frac{1 \, \text{kWh}}{0,38} \approx 2,63 \, \text{kWh}$\\
+			$2,63 \cdot 3,6 \, \text{MJ} \approx 9,47 \, \text{MJ}$\\
+			$\frac{9,47 \, \text{MJ}}{25 \frac{\text{MJ}}{\text{kg}}} \approx 0,38 \, \text{kg}$}
+		
+		\item Erläutern Sie den Unterschied zwischen einem Kernkraftwerk mit Siede- bzw. Druckwasserreaktor.
+		\ans{\textbf{Druckwasserreaktor:} Wasser wird auf 320°C erhitzt, erreicht aber aufgrund des hohen Drucks von ca. 16 MPa nicht den Siedepunkt.\\\\	
+		\textbf{Siedewasserreaktoren:} Es wird bereits im Reaktor Dampf erzeugt, der direkt auf die Dampfturbine geleitet wird. Da hier auch die Dampfturbine mit radioaktivem Material in Berührung kommt, ist der Kontrollbereich entsprechend groß zu bemessen.}
+	
+	\item Was versteht man unter einem GuD-Kraftwerk? Welchen Wirkungsgrad erreichen GuD-Kraftwerke?
+	\ans{Gas- und Dampf-Kraftwerk. Kopplung eines Gasturbinenprozesses mit einem nachgeschalteten Dampfturbinenprozess. Dadurch wird die in den Abgasen der Gasturbine enthaltene Energie noch teilweise genutzt.\\\\GuD Kraftwerke erreichen Wirkungsgrade von ca. 50-60 \%.}
+	
+	\item Was versteht man unter Kraft-Wärme-Kopplung? Welchen Gesamtwirkungsgrad erreichen solche Kraftwerke?
+	\ans{Kopplung der Erzeugung von Nutzwärme mit der Erzeugung elektrischer Energie.\\\\Gesamtwirkungsgrad von ca. 70-90 \%.}
+	
+	\item Nennen Sie drei Turbinentypen für Wasserkraftwerke und ihre Einsatzbereiche (Fallhöhe). Welcher Turbinentyp ist auch für Pumpbetrieb geeignet?
+	\ans{\textbf{Kaplan-Turbine} (Propellerturbine): niedrige Fallhöhe (h $<$ 60 m)\\\\\textbf{Francis-Turbine}: mittlere Fallhöhe ( 40 m $<$ h $<$ 400 m) \textbf{auch Pumpbetrieb möglich}.\\\\\textbf{Pelton-Turbine} (Freistrahl-Turbine): hohe Fallhöhe (200 m $<$ h)
+		}
+		
+	\item Kann man durch einen Windpark mit 300 MW Bemessungsleistung ein konventionelles Kraftwerk gleicher Leistung ersetzen? Begründen Sie Ihre Aussage.
+	\ans{Nein. Es kann sich hierbei nur um zusätzliche Energieerzeugungsanlagen handeln, da stets mit einem nahezu vollständigen Ausfall des Dargebots an Primärenergie zu rechnen ist (Ausnutzungsdauer).}
+	
+	\item Benennen Sie die drei Leistungsbereiche, die den Einsatz und die Ausnutzungsdauer von Kraftwerken charakterisieren. Ordnen Sie jedem Leistungsbereich einen geeigneten Kraftwerkstyp zu.
+	\ans{\textbf{Grundleistungskraftwerke}: Niedrige Arbeitskosten bei oft hohen Festkosten. Betrieb mit möglichst hoher Ausnutzungsdauer.\\\\\textbf{Mittelleistungskraftwerke}: Mittlere Arbeitskosten. Ausgelegt für den Betrieb mit häufig wechselnder Leistung und für tägliches An- und Abfahren. Steinkohlekraftwerke werden häufig im Mittelleistungsbereich eingesetzt.\\\\\textbf{Spitzenleistungskraftwerke}: Hohe Arbeitskosten bei niedrigen Leistungskosten. Betrieb mit geringer Ausnutzungsdauer. Mehrmaliges An- und Abfahren pro Tag. Kurze Anfahrzeiten, hohe Leistungsänderungs-Geschwindigkeiten. Spitzenleistungskraftwerke sind Speicher- und Pumpkraftwerke und reine Gasturbinenkraftwerke.}
+		
+		\item Skizzieren Sie eine typische Tages-Lastganglinie des Bedarfs an elektrischer Leistung in Deutschland und konstruieren Sie daraus die zugehörige Tages-Dauerlinie.
+		Welcher Zusammenhang besteht zwischen Nennleistung, maximaler Leistung, mittlerer Leistung, Nennbetriebsdauer, Ausnutzungsdauer und Benutzungsdauer?
+		\\\includegraphics[width=\textwidth]{lastganglinie-de20160626172933376.jpeg}
+		
+	\end{itemize}
+	
+	
+	\section{Das Drehstromsystem}
+	\begin{itemize}
+		\item Wie ist der Effektivwert einer periodisch veränderlichen Größe x(t) mit der Periodendauer T definiert? Welcher Zusammenhang besteht zwischen dem Effektivwert und dem Scheitelwert speziell bei sinusförmigen Größen?
+		\ans{$U_{eff} = U = \sqrt{ \frac{1}{T} \int\limits_{t_0}^{t_0+T} u^2 (\tau) \, d \tau }$.\\Für sinusförmige Größen:
+			$U_{eff} = \hat{u} \cdot \frac{1}{\sqrt{2}}$}
+	
+		\item Wie ist der Phasenverschiebungswinkel zwischen Strom und Spannung definiert?
+		\ans{$\varphi = \varphi_{ui} = \varphi_u - \varphi_i $}
+		
+		\item Welche Funktion hat der Drehoperator $a$ und wie ist er im symmetrischen Drehstromsystem definiert?
+		\ans{Hilfsmittel zur Darstellung der Phasenverschobenen Größen eines Drehstromsystems in Zeigerdarstellung.\\
+			$\underline{a}^0 = 1,\; \underline{a} = e^{j\cdot 120^\circ},\; \underline{a}^2 = e^{j \cdot 240^\circ},\; \underline{a}^3 = 1$}
+		
+		\item In welchem Verhältnis stehen die Beträge der Strangströme eines Verbrauchers in Dreieckschaltung zu den Außenleiterströmen?
+		\ans{$I_{L(\Delta)} = \sqrt(3) \cdot I_{\Delta}$}
+		
+		\item Vergleichen Sie Stern- und Dreiecksschaltung eines symmetrischen ohmschen Verbrauchers im Drehstromsytem:
+		\begin{itemize}
+		\item Wie ist das Verhältnis der Leistungsaufnahme bei gleichen Lastwiderständen?
+		\item In welchem Verhältnis müssen die Lastwiderstände stehen, damit gleiche Leistung aufgenommen wird?
+		\ans{Gleiche Lastwiderstände:\\
+			$ P_{\Delta} = 3 \cdot P_S $\\
+			Gleiche Leistung:\\
+			$Z_{\Delta} = \frac{Z_S}{3} $}
+		\end{itemize}
+		
+		\item Wie ist in einem einphasigen Wechselstromsystem die Schein-, Wirk- und Blindleistung definiert und mit welchen Einheiten werden sie bezeichnet?
+		\ans{Wirkleistung\\
+			$P= \Re{\{\underline{S}\}} = U\, I \cdot \cos(\varphi) \quad \text{[W]}$\\
+			\\Blindleistung\\
+			$Q=\Im{\{\underline{S}\}} = U \, I \cdot \sin(\varphi) \quad \text{[Var]}$\\
+			\\Scheinleistung\\
+			$S=U \cdot I = \sqrt{P^2 + Q^2} \quad \text{[VA]}$}
+		
+		\item Geben Sie die Formeln zur Berechnung der Schein-, Wirk- und Blindleistung in einem symmetrischen Drehstromsystem an.
+		\ans{Wirkleistung\\
+			$P= \Re{\{\underline{S}\}} = U\, I \cdot \cos(\varphi) \quad \text{[W]}$\\
+			\\Blindleistung\\
+			$Q=\Im{\{\underline{S}\}} = U \, I \cdot \sin(\varphi) \quad \text{[Var]}$\\
+			\\Scheinleistung\\
+			$S=U \cdot I = \sqrt{P^2 + Q^2} \quad \text{[VA]}$}
+		
+	\end{itemize}
+	
+	\section{Elektrische Maschinen}
+	
+	\begin{itemize}
+		\item Welche Verluste treten beim Betrieb von technischen Transformatoren auf und wodurch werden sie verursacht?
+		\ans{\textbf{Kupferverluste} (Stromwärmeverluste), verursacht durch die ohmschen Widerstände in den Wicklungen.
+			\\\\
+			\textbf{Wirbelstromverluste}, verursacht durch die zeitlich veränderlichen magnetischen Flüsse im Eisen $\sim f^2 \cdot B^2$
+			\\\\
+			\textbf{Hystereseverluste}, verursacht durch das Durchlaufen der Hystereseschleife $\sim f \cdot B^2$
+			\\\\
+			\textit{Wirbelstromverluste und Hystereseverluste werden zusammengefasst als \textbf{Eisenverluste} bezeichnet.}}
+		
+	\item Ein einphasiger Zweiwicklungstransformator speise aus dem 110-kV-Bahnstromnetz eine 15-kV-Fahrleitung.\\
+	Zeichnen Sie das ESB des einphasigen Zweiwicklungstransformators für stationären Betrieb:
+	\\- vollständiges Ersatzschaltbild
+	\\- Ersatzschaltbild für Transformator ohne Eisenverluste
+	\\- vereinfachtes Ersatzschaltbild für Betrieb mit Bemessungsstrom
+	\\Beschriften und benennen Sie die einzelnen Bestandteile des Ersatzschaltbildes und zeichnen Sie die an den Klemmen des Ersatzschaltbildes wirksamen Spannungen ein.
+	
+	\ans{\\\includegraphics[width=1\textwidth]{trafo_vollstaendig.png}
+		\\\includegraphics[width=1\textwidth]{trafo_ohne_EK_verluste.jpeg}
+		\\\includegraphics[width=1\textwidth]{trafo_bemessungsstrom.png}
+		}
+	
+	\item Ein Transformator arbeite als Netzkuppeltransformator zwischen dem Höchstspannungsnetz und dem Hochspannungsnetz mit den jeweiligen Nennspannungen 380 kV und 110 kV.\\
+	Zeichnen Sie das vereinfachte einphasige Ersatzschaltbild eines technischen Drehstromtransformators bei Betrieb mit Bemessungsstrom. Beschriften und benennen Sie die einzelnen Bestandteile des Ersatzschaltbildes und zeichnen Sie die an den Klemmen des Ersatzschaltbildes wirksamen Spannungen ein.
+	
+	\ans{\\\includegraphics[width=0.85\textwidth]{trafo-dreiphasig.png}}
+		
+		\item Beschreiben Sie in Stichworten, wie die Kurschlussspannung eines Transformator ermittelt wird.
+		\ans{\begin{itemize}
+				\item US/Sekundärwicklung kurzschließen
+				\item Spannung an OS/Primärwicklung erhöhen, bis Bemessungsstrom fließt
+				\item[$ \rightarrow $] Spannung an OS Seite ist die Kurzschlussspannung.
+			\end{itemize}}
+		
+		\item Zeichnen Sie für eine Gleichstromnebenschlussmaschine das Ersatzschaltbild für den stationären Betrieb und geben Sie die Gleichung für den Zusammenhang zwischen Drehzahl, Drehmoment und Klemmenspannung an.\\
+		Leiten Sie daraus ab, durch welche Maßnahmen die Leerlaufdrehzahl und das Anlaufmoment wie beeinflusst werden können.
+		\ans{[ESB]\\\\
+			$n = \frac{U}{K_1 \cdot \Phi} - \frac{R}{K_1 \cdot K_2 \cdot \Phi^2} \, M$\\\\
+			Erhöhung der Spannung: Drehzahl + Drehmoment steigen.\\
+			Erhöhung des Drehmoments, U konstant: Drehzahl sinkt.\\
+			Erhöhung der Drehzahl, U konstant: Drehmoment sinkt.}
+		
+	\item Zeichnen Sie für die Gleichstromreihenschlussmaschine die Drehzahl-Drehmoment-Kennlinie.\\
+	Was geschieht, wenn eine Gleichstromreihenschlussmaschine ohne mechanische Last an das Netz geschaltet wird?
+	\ans{\\\includegraphics[width=0.5\textwidth]{gleichstromreihenschluss_kennlinie.png}\\Wird eine Gleichstromreihenschlussmaschine entlastet, kann die Drehzahl bis zur Zerstörung der Maschine ansteigen, die Maschine "geht durch".}
+	
+	\item Was versteht man unter einem "Drehfeld" im Zusammenhang mit elektrischen Maschinen?
+	\ans{Die räumlich sinusförmige Verteilung der magnetischen Induktion im Luftspalt einer elektrischen Maschine, die gegenüber dem Ständer umläuft.}
+	
+	\item Welche Arten von Synchronmaschinen kann man hinsichtlich der Bauart unterscheiden und wo werden diese jeweils bevorzugt eingesetzt?
+	\ans{Schenkelpolmaschinen und Vollpolmaschinen.\\\\
+		Schenkelpolmaschinen: Wasserkraftwerke.\\
+		Vollpolmaschinen: Dampf- und Gasturbinenkraftwerke}
+	
+	\item Zeichnen Sie das einphasige Ersatzschaltbild einer Synchronmaschine für den stationären Betrieb.
+	\ans{\imgsrc{syncromaschine_esb.png}}
+	
+	\item Was versteht man unter einer über- bzw. unterregten Synchronmaschine? Wie wirken diese jeweils am Netz?
+	\ans{Der übererregte Synchrongenerator verhält sich wie eine Kapazität;
+		er gibt induktive Blindleistung ab.
+		\\\\
+		Der untererregte Synchrongenerator verhält sich wie eine Induktivität;
+		er nimmt induktive Blindleistung auf.}
+		
+	\item Zeichnen Sie ein Zeigerdiagramm (Spannungs- und Stromzeiger) einer ohmsch-induktiv und einer ohmsch-kapazitiv belasteten Synchronmaschine im Erzeugerzählpfeilsystem.
+	\ans{\\\includegraphics[width=\textwidth]{ohmschindkap.jpg}}
+	
+	\item Wie werden bei einer Synchronmaschine die Blindleistungsabgabe und die Wirkleistungsabgabe eingestellt?
+	\ans{Polradwinkel?}
+	
+	\item Zeichnen Sie die Drehzahl-Drehmoment-Kennlinie einer Synchronmaschine. Was sagt diese aus?
+	\ans{\\\includegraphics[width=0.3\textwidth]{kennlinie_syncro.png} Die Drehzahl im stabilen Betrieb ist stets gleich der synchronen Drehzahl.}
+	
+	\item Mit welcher Drehzahl n dreht sich ein Synchrongenerator mit der Polpaarzahl p=5 im 50-Hz-Drehstromnetz.
+	\ans{$n=\frac{f}{p} \cdot \frac{60s}{\text{min}} = \frac{50}{5} \cdot \frac{60s}{\text{min}}= 600 \, min^{-1}$}
+	
+	\item Warum weicht die Drehzahl einer Asynchronmaschine im Normalbetrieb von der synchronen Drehzahl ab?
+	\ans{Weil im Betrieb mit synchroner Drehzahl in den Läufern keine Spannung induziert wird und somit kein Drehmoment entsteht.}
+	
+	\item Zeichnen Sie die Drehzahl-Drehmoment-Kennlinie einer Asynchronmaschine, tragen Sie die charakteristischen Kenngrößen ein und benennen Sie diese.
+	\ans{\\\includegraphics[width=0.9\textwidth]{n-m-kennlinie-async.png}}
+	
+	
+	\item Wie ist der Schlupf einer Asynchronmaschine definiert? Geben Sie die Formel für die Definition des Schlupfs und benennen Sie die verwendeten Formelzeichen.
+	\ans{$s = \frac{n_0 - n}{n_0}$\\
+		$s$: Schlupf, $n$: Drehzahl, $n_0$: synchrone Drehzahl.}
+	
+	\item Welchen Einfluss haben bei einer Asynchronmaschine die Klemmenspannung und deren Frequenz auf die Drehzahl und das maximal zur Verfügung stehende Drehmoment im stationären Betrieb?
+	\ans{Das Kippmoment ändert sich quadratisch mit der Klemmenspannung.\\
+		Das Kippmoment ist umgekehrt proportional dem Quadrat der speisenden Frequenz.\\\\
+		Die Frequenz gibt die synchrone Drehzahl (Leerlaufdrehzahl) vor.\\
+		(Keine Ahnung, wie sich die Spannung auf die Drehzahl auswirkt.)}
+	
+	\item Was muss beachtet werden, wenn eine Asynchronmaschine oberhalb ihrer Bemessungsfrequenz betrieben wird und wie verändert sich dabei die Drehzahl-Drehmoment-Kennlinie? Wie nennt man diesen Bereich?
+	\ans{Die Ständerspannung muss umgekehrt proportional mit der Frequenz verändert werden, um den Fluss auf dessen Bemessungswert zu halten.
+		$\Phi \sim \frac{U_r}{f_r}$}
+	\end{itemize}
+	
+	\section{Übertragung elektrischer Energie}
+	\begin{itemize}
+		\item Wie sind üblicherweise die Leiterseile von Hochspannungsfreileitungen aufgebaut (Begründung)?
+		\ans{Aluminium-Stahl-Seile. Die inneren Lagen bestehen aus Stahldrähten, diese sind umgeben von mehreren Lagen aus Aluminiumdrähten.
+			Querschnittsverhältnis Alu:Stahl = 6:1\\\\
+			Begründung: Hohe mechanische Belastbarkeit, geringeres Eigengewicht, möglichst geringer spezifischer Widerstand.}
+		
+		\item Weshalb verwendet man für Hochspannungsfreileitungen Bündelleiter?
+		\ans{Minimierung der Randfeldstärke, vor allem bei Spannungen > 220 kV.}
+		
+		\item Was versteht man im Zusammenhang mit den elektrischen Kenngrößen einer Leitung unter den Leitungsbelägen?\\
+		Nennen Sie drei Leitungsbeläge.
+		\ans{Längenbezogene Kenngrößen einer Leitung.\\
+			z.B. ohmscher Querleitwertbelag (Ableitungsbelag), kapazitiver Ableitungsbelag (Kapazitätsbelag), Induktivitätsbelag}
+		
+		\item Wie errechnen sich der Betriebswellenwiderstand und die Phasenkonstante Beta einer verlustlosen Leitung aus den Leitungsbelägen?
+		\ans{$\beta \omega \sqrt{L_b' C_b'}$\\
+		$Z_w = \sqrt{\frac{ L_b'}{ C_b'}}$}
+	
+	\item Nennen Sie für eine verlustlose 110-kV-Freileitung die Richtwerte für die längenbezogene Betriebsreaktanz, die längenbezogene Betriebsadmittanz und den Betriebswellenwiederstand.
+	\ans{\begin{itemize} \item längenbezogene Betriebsreaktanz: $X_b' = \omega L_b' = 0,40 \, \frac{\Omega}{\text{km}}$
+		\item längenbezogene Betriebsadmittanz: $Y_b' = \omega C_b' = 3,0 \, \frac{\mu \text{S}}{\text{km}}$
+		\item Betriebswellenwiderstand: $Z_w = \sqrt{\frac{\omega L_b'}{\omega C_b'}} = 365 \, \Omega$
+	\end{itemize}}
+	\item Wie ist die natürliche Leistung einer Drehstromleitung definiert? Was kennzeichnet diesen Betriebszu-
+	stand?
+	\ans{$P_{\text{nat}} = \frac{U_n^2}{Z_w}$
+		Beim Betrieb mit natürlicher Leistung:
+		\begin{itemize}
+		\item Betrag der Spannungen längs der Leitung konstant $|\underline{U}_1| = |\underline{U}_2|$
+		\item Leitung ist im Blindleistungsgleichgewicht
+		\item reine Phasendrehung um Winkel $\beta \, l $
+	\end{itemize}}
+	
+	\item Zeichnen Sie in der komplexen Ebene die Zeiger der Spannungen und Ströme jeweils am Anfang und Ende einer Leitung im natürlichen Betrieb.
+	\ans{\\\includegraphics[width=0.25\textwidth]{zeiger_nat_leistung.jpeg}
+	1 : Leitungsanfang; 2 : Leitungsende; $ \beta $ : Phasenkonstante; l : Leitungslänge}
+
+\item Was geschieht, wenn über eine Leitung $P_2 < P_{\text{nat}} $ (oder $ P_2 > P_{\text{nat}}$) übertragen wird? Wie kann man dem entgegenwirken? Nennen Sie Vor- und Nachteile der beiden möglichen Maßnahmen.
+
+\ans{Leistung unter natürlicher Leistung:
+	\\\\Problem: Stationäre Erhöhung der Spannung am Leitungsende gegenüber der Spannung am Leitungsanfang.\\\\
+	Maßnahmen: Betriebswellenwiderstand vergrößern, durch:
+	\begin{itemize}
+		\item Erhöhung des Induktivitätsbelages, Nachteil: Stabilität sinkt.
+		\item Verminderung des Kapazitätsbelages, Stabilität wächst.
+	\end{itemize}	
+	Leistung über natürlicher Leistung:
+	\\\\Problem: Hoher Lastrom.
+	\\\\Maßnahmen: Exakt umgekehrt zu oben, Auswirkungen ebenfalls.}
+	
+	\item Für welche Anwendungen werden HGÜ Anlagen eingesetzt? Worin liegen jeweils die Vorteile?
+	\ans{Überbrückung langer Strecken (ab ca. 500 km bei Freileitungen).
+		\begin{itemize}
+			\item Spannungsabfall längs der Leitung wird nur durch die ohmschen Widerstände bestimmt. Reaktanzbeläge sind nicht wirksam. Keine Stabilitätsprobleme.
+			\item Keine Ladeleistung, daher keine Längenbegrenzung durch die Ladeleistung.
+			\item Kostengünstiger als Drehstromsysteme bei hoher Leitungslänge (ab ca. 500 km bei Freileitungen)
+		\end{itemize}
+		}
+		\end{itemize}
+		
+		\section{Elektrische Energieversorgungsnetze}
+		\begin{itemize}
+			\item Welche Kriterien bestimmen die Auswahl der Netzstruktur von Energieversorgungsnetzen?
+			\ans{\begin{itemize}
+					\item Lastdichte
+					\item angestrebte Versorgungszuverlässigkeit
+					\item Wirtschaftlichkeit
+				\end{itemize}}
+		\end{itemize}
+		
+		\section{Hochspannungstechnik}
+		\begin{itemize}
+			\item Erläutern Sie die Begriffe Isolation, Isolierung und Isolator.
+			\ans{Isolation: Grad der galvanischen Trennung leitender Teile\\
+				Isolierung: technische Realisierung einer Isolation\\
+				Isolator: selbstständiges Betriebsmitttel}
+			
+			\item Skizzieren Sie den Verlauf der elektrischen Feldstärke zwischen den Elektroden eines homogenen und eines inhomogenen elektrischen Feldes.
+			\ans{\\\includegraphics[width=0.8\textwidth]{feldstarke_verlauf_homo_inhomo.png}}
+			
+			\item Wodurch unterscheidet sich ein schwach inhomogenes von einem stark inhomogenen elektrischen Feld?
+			\ans{\textbf{schwach inhomogen}:
+				Entladungseinsatz führt unmittelbar zum Durchschlag.\\\\
+				\textbf{stark inhomogen}:
+				Zwischen Einsetzspannung und Durchschlagspannung treten stabile Entladungen auf.}
+			
+			\item Wie ist der Homogenitätsgrad eines elektrischen Feldes definiert?
+			\ans{$\eta = \frac{E_{\text{mittel}}}{E_{\text{max}}} = \frac{\frac{U}{s}}{E_{\text{max}}}$}
+			
+			\item Wie groß ist die innere elektrische Festigkeit von Luft bei atmosphärischen Bedingungen?
+			\ans{$E_0 = 25 \, \text{kV}/ \text{cm}$}
+			
+			\item Erläutern Sie den Unterschied zwischen einem Durchschlag und einem Überschlag am Beispiel eines Isolators (Skizze oder Stichworte)
+			\ans{\textbf{Durchschlag}: Entladung durch einen Isolierstoff\\\\
+				\textbf{Überschlag}: Entladung längs einer Grenzfläche zwischen verschiedenen Isolierstoffen.}
+			
+			\item Wie hoch ist der Richtwert für den mittleren spezifischen Spannungsbedarf für den Durchschlag (Streamerentladung) einer Stab-Platte-Anordnung bei positiver und bei negativer Polarität an der Stabelektrode?
+			\ans{positive Polarität: 4,5 kV/cm\\
+				negative Polarität: 5-10 kV/cm}
+			
+			\item Was versteht man unter einem Kriechweg?
+			\ans{Weg des Stromes entlang der Oberfläche des Isolators beim Überschlag.}
+			
+			\item Was versteht man unter einer selbstheilenden Isolierung?
+			\ans{Eine Isolierung, welche nach einem Durchschlag ihr vollständiges Isoliervermögen wiedererlangt.}
+			
+			\item Skizzieren Sie den zeitlichen Verlauf einer Blitzstoßspannung, tragen Sie die Kennwerte ein und geben Sie deren Werte für die genormte Blitzstoßspannung an.
+			\ans{\\\includegraphics[width=0.9\textwidth]{blitzstosspannung.png}}
+			
+			\item Skizzieren Sie eine Schaltung zur Erzeugung von Blitzstoßspannungen.
+			\ans{\\\includegraphics[width=0.9\textwidth]{schaltung_blitzstosspannungen.png}}
+			
+			\item Skizzieren Sie eine Schaltung zur Erzeugung stationärer Lichtbogen mit Gleichspannung. Erläutern Sie mittels der entsprechenden Kennlinien den stabilen Arbeitspunkt eines stationären Gleichstromlichtbogens.
+			\ans{\\\includegraphics[width=0.9\textwidth]{lichtbogen.png}}
+			
+			\item Beschreiben Sie das Prinzip einen Gleichstromlichtbogen zu löschen und nennen Sie drei Methoden.
+			\ans{Prinzip: Lichtbogenspannung muss größer werden als die treibende Spannung.
+				\\Methoden:
+				\begin{itemize}
+					\item Verlängerung des Lichtbogens
+					\item Kühlung des Lichtbogens
+					\item Aufteilung des Lichtbogens in Teillichtbögen
+				\end{itemize}}
+		\end{itemize}
+		\section{Elektrische Antriebe}
+		\ans{Irgendwann nachzutragen. Nicht klausurrelevant.}
+		
+		\section{Stromrichter}
+		\begin{itemize}
+			
+			\item Was versteht man unter einem Stellglied?
+			\ans{Unter einem Stellglied versteht man die gerätetechnische Vorrichtung zur Veränderung der Stellgröße.}
+			
+			\item In welche drei für die Energietechnik wesentlichen Gruppen kann man elektronische Schalter einteilen? Welche grafischen Symbole werden dafür in Schaltplänen verwendet?
+			Nennen Sie je ein elektronisches Bauelement als Beispiel.
+			\ans{\\\includegraphics[width=0.9\textwidth]{bauelemente_schalter.png}\\Beispiele: Diode, Thyristor, GTO-Thyristor}
+			
+			\item Nennen Sie die 4 Grundtypen von Stromrichtern und zeichnen Sie die Richtung der Energieflüsse zwischen den jeweils beteiligten Energiesystemen.
+			\ans{\imgsrc{arten-von-stromrichter.png}}
+			
+			\item Zeichnen Sie den Schaltplan einer Einweggleichrichterschaltung mit ohmscher Last und skizzieren Sie die prinzipiellen Spannungsverläufe, wenn für die Schaltung die folgenden elektronischen Ventile verwendet werden: Diode, Thyristor mit Steuerwinkel 30°
+			\ans{\\\includegraphics[width=0.8\textwidth]{diode_gleichrichter_u-verlauf.png}\\\includegraphics[width=0.8\textwidth]{thyristor_gleichrichter_u-verlauf.png}}
+			
+			\item Skizzieren Sie die Grundschaltung eines Tiefsetzstellers für ohmsch-induktive Lasten. Welche grundsätzlichen Steuerverfahren gibt es?
+			\ans{\\\includegraphics[width=0.8\textwidth]{grundschaltung_tiefsetzsteller.png}\\Steuerverfahren: Pulsweitensteuerung, Pulsfolgesteuerung}
+		\end{itemize}
+		
+		\section{Elektrosicherheit}
+		\begin{itemize}
+		\item Von welchen zwei Faktoren hängt bei gegebenen Stromweg durch den menschlichen Körper die Gefahr für Personen hauptsächlich ab?
+		\ans{Größe und Dauer des Stromflusses.}
+		
+		\item Wo liegt die vereinbarte Grenze der Berührungsspannung bei Wechsel- und Gleichspannung nach DIN VDE 0100 und welcher Körperwiderstand wird bei der Bestimmung abgesetzt?
+		\ans{AC: mindestens 50V, DC: mindestens 120V, $ 1 \, \text{k}\Omega $ }
+		
+		\item Was versteht man unter dem Basisschutz? Nennen Sie 3 Beispiele für die Realisierung von Basisschutz.
+		\ans{Schutz vor direkter Berührung von spannungsführenden Teilen. Basisisolierungen, Abdeckungen, Hindernisse.}
+		
+		\item Erläutern Sie die Funktion eines Fehlerstromschutzschalters.
+		\ans{Der Fehlerstromschutzschalter erfasst über die Erde abfließenden Fehlerstrom und schaltet über einem vorgegebenen Grenzwert nach einer Zeit $ < $ 0,2s ab.}
+		\end{itemize}
+		
+		
+\section*{Quellen}
+Skript zur Vorlesung \textsc{Elektrische Energietechnik}, 2016, HSA, TU München\\
+Folien zur Vorlesung \textsc{Elektrische Energietechnik}, 2016, HSA, TU München
+\\\\
+Enthält Fehler.\\
+Korrekturvorschläge bitte an julian.eder@tum.de.
+\end{document}
